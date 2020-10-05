@@ -63,6 +63,10 @@ semaphore的acquire 可以有 很多个不定个数的线程 同时acquire.
 
 Semaphore(2, true) 公平，即排队。
 
+LockSupport  
+park()
+unpark()
+
 都是用AQS实现的。
 AbstractQueuedSynchronizer
 
